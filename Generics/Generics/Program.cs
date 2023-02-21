@@ -17,6 +17,13 @@ namespace Generics
             //UC1
             int ans = genericClass.GenMaximum(5, 4, 6);
             Console.WriteLine("the maximum num are : " + ans);
+
+            //for float method
+            //UC2
+            float value = genericClass.GenMaximum(7f, 6f, 9f);
+            Console.WriteLine("the maximum float value are : " + value);
+
+
         }
     }
 }

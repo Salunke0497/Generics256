@@ -30,6 +30,15 @@ namespace FindMaxNumTest
             int answer = genericbaseInt.GenMaximum(5, 9, 7);
             Assert.AreEqual(9, answer);
         }
+
+        //for Test case 1.3
+        //for find maximum number at 3rd position
+        [Test]
+        public void GivenMaxThirdNum_WhenAnalysed_ShouldReturnThirdMax()
+        {
+            int answer = genericbaseInt.GenMaximum(5, 9, 17);
+            Assert.AreEqual(17, answer);
+        }
     }
 }
 

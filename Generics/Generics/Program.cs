@@ -23,7 +23,12 @@ namespace Generics
             float value = genericClass.GenMaximum(7f, 6f, 9f);
             Console.WriteLine("the maximum float value are : " + value);
 
+            //for string method
+            //UC3
+            string answer = genericClass.GenMaximum("Apple", "Banana", "Mango");
+            Console.WriteLine("the maximum string value are : " + answer);
 
+            Console.ReadLine();
         }
     }
 }

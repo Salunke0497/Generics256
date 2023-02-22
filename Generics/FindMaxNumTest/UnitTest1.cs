@@ -55,6 +55,14 @@ namespace FindMaxNumTest
             float answerFloat = genericbaseFloat.GenMaximum(5.5f, 88.8f, 7.7f);
             Assert.AreEqual(88.8f, answerFloat);
         }
+        //for Test case 2.3
+        //for find maximum float number at 3rd position
+        [Test]
+        public void GivenMaxThirdNumFloat_WhenAnalysed_ShouldReturnThirdMax()
+        {
+            float answerFloat = genericbaseFloat.GenMaximum(45.6f, 6.6f, 7.7f);
+            Assert.AreEqual(45.6f, answerFloat);
+        }
     }
 }
 

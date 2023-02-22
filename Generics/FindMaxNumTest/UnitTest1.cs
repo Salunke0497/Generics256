@@ -71,6 +71,14 @@ namespace FindMaxNumTest
             string answerString = genericbaseString.GenMaximum("Peach", "Banana", "Apple");
             Assert.AreEqual("Peach", answerString);
         }
+        //for Test case 3.2
+        //for find maximum string value at 2nd position
+        [Test]
+        public void GivenMaxSecoundString_WhenAnalysed_ShouldReturnSecoundMax()
+        {
+            string answerString = genericbaseString.GenMaximum("Banana", "Peach", "Apple");
+            Assert.AreEqual("Peach", answerString);
+        }
     }
 }
 

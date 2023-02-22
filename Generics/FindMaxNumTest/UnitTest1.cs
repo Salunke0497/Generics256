@@ -39,6 +39,14 @@ namespace FindMaxNumTest
             int answer = genericbaseInt.GenMaximum(5, 9, 17);
             Assert.AreEqual(17, answer);
         }
+        //for Test case 2.1
+        //for find maximum float number at 1st position
+        [Test]
+        public void GivenMaxFloatNum_WhenAnalysed_ShouldReturnFloatMax()
+        {
+            float answer = genericbaseFloat.GenMaximum(55f, 9f, 17f);
+            Assert.AreEqual(55f, answer);
+        }
     }
 }
 

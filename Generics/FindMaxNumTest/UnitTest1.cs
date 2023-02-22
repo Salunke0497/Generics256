@@ -63,6 +63,14 @@ namespace FindMaxNumTest
             float answerFloat = genericbaseFloat.GenMaximum(45.6f, 6.6f, 7.7f);
             Assert.AreEqual(45.6f, answerFloat);
         }
+        //for Test case 3.1
+        //for find maximum float number at 2nd position
+        [Test]
+        public void GivenMaxFirstString_WhenAnalysed_ShouldReturnFirstMax()
+        {
+            string answerString = genericbaseString.GenMaximum("Peach", "Banana", "Apple");
+            Assert.AreEqual("Peach", answerString);
+        }
     }
 }
 
